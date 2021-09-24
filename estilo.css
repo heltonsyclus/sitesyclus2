@@ -1,0 +1,232 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    margin: 5px 10px;
+}
+.texto-center {
+    text-align: center;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 40px auto;
+}
+.container-one {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 15px;
+}
+.container-two {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px auto;
+}
+.mobile,
+.mobile-conteudo {
+    display: none;
+}
+
+.flex-coluna {
+    display: flex;
+    flex-direction: column;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+.name {
+    color: rgb(116, 116, 116);
+    font-size: 18px;
+}
+p {
+    color: rgb(116, 116, 116);
+    font-size: 18px;
+}
+.name:hover {
+    color: rgb(46, 126, 255);
+}
+.btn-primary {
+    background-color: rgb(46, 126, 255);
+    padding: 5px 15px;
+    margin-left: 15px;
+    color: #fff;
+    border-radius: 55px;
+}
+.btn-primary:hover {
+    background-color: blue;
+}
+h3 {
+    color: rgb(46, 126, 255);
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+
+.top {
+    max-width: 1050px;
+    padding-top: 20px;
+}
+img {
+    margin: 0px 30px;
+}
+#servicos {
+    background-color: rgb(228, 228, 228);
+    margin: 50px 0;
+    padding: 50px 0;
+}
+.name-p {
+    color: #000000;
+    font-size: 20px;
+}
+form {
+    width: 450px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgb(214, 214, 214);
+    box-shadow: rgb(116, 116, 116);
+    margin: 0px 20px 50px 50px;
+}
+label {
+    padding-top: 10px;
+}
+
+input {
+    width: 350px;
+    padding: 15px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: none;
+}
+h2 {
+    font-size: 18px;
+    color: rgb(116, 116, 116);
+}
+h1 {
+    font-size: 40px;
+    color: rgb(116, 116, 116);
+}
+#precos {
+    background-color: cornflowerblue;
+    width: 100%;
+    padding: 70px;
+    margin: 50px 0;
+}
+.box {
+    background-color: rgb(70, 116, 190);
+    width: 300px;
+    color: #fff;
+    border-radius: 18px;
+    padding: 15px 5px;
+    margin: 0px 10px;
+}
+.titulo-box {
+    font-size: 30px;
+    color: #fff;
+    padding: 10px 0px 10px 20px;
+}
+.btn-secundary {
+    background-color: rgb(46, 126, 255);
+    padding: 5px 15px;
+    color: #fff;
+    border-radius: 55px;
+}
+.btn-secundary:hover {
+    background-color: darkblue;
+}
+.center {
+    margin: 20px auto;
+    text-align: center;
+}
+.marcacao-left {
+    max-width: 80%;
+    padding-top: 20px;
+    text-align: left;
+}
+.marcacao-right {
+    max-width: 80%;
+    padding-top: 20px;
+    text-align: right;
+}
+.texto-esquerdo {
+    text-align: left;
+}
+.rodape {
+    background-color: rgb(46, 126, 255);
+    width: 100%;
+    color: #fff;
+    padding-top: 15px;
+}
+.fundo {
+    background-color: blue;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+}
+.endereco {
+    font-size: 18px;
+    color: #fff;
+    max-width: 300px;
+}
+.white {
+    color: #fff;
+}
+@media (max-width: 920px) {
+    .desktop {
+        display: none;
+    }
+    .mobile {
+        display: inline-block;
+    }
+    .main-img {
+        display: none;
+    }
+    h3 {
+        font-size: 40px;
+    }
+    #servicos {
+        padding: 5px 0;
+    }
+    .mobile-coluna {
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    form {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .marcacao-right {
+        text-align: left;
+    }
+    .box {
+        margin: 10px 0;
+    }
+    .container-one,h4, .endereco {
+        text-align:left;
+        padding-left:5px;
+    }
+    .rede-social{margin-top: 20px; }
+}
